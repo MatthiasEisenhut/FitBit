@@ -6,34 +6,34 @@ import { RouterView } from 'vue-router';
   <div>
     <div class="row justify-between q-pa-xl">
       <div>
-        <p>Welcome Matthias!</p>
-        <p>Wednesday, 15th Febuary, 2023</p>
+        <p class="text-white">Welcome Matthias!</p>
+        <p class="text-white">Wednesday, 15th Febuary, 2023</p>
       </div>
-      <q-img src="/public/65.jpg" width="20vw" style="border-radius: 100%"></q-img>
+      <q-img src="/65.jpg" width="20vw" style="border-radius: 100%"></q-img>
     </div>
-    <div>
-      <q-card class="myCard"
+    <div class="row justify-center">
+      <q-card class="myCard q-ma-sm"
         ><q-card-section
           >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quod alias non aspernatur
           distinctio cumque laboriosam officia dolor voluptatum, quidem adipisci corrupti, porro
           iste in, id eius voluptas. Quas, doloremque!</q-card-section
         ></q-card
       >
-      <q-card class="myCard"
+      <q-card class="myCard q-ma-sm"
         ><q-card-section
           >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quod alias non aspernatur
           distinctio cumque laboriosam officia dolor voluptatum, quidem adipisci corrupti, porro
           iste in, id eius voluptas. Quas, doloremque!</q-card-section
         ></q-card
       >
-      <q-card class="myCard"
+      <q-card class="myCard q-ma-sm"
         ><q-card-section
           >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quod alias non aspernatur
           distinctio cumque laboriosam officia dolor voluptatum, quidem adipisci corrupti, porro
           iste in, id eius voluptas. Quas, doloremque!</q-card-section
         ></q-card
       >
-      <q-card class="myCard"
+      <q-card class="myCard q-ma-sm"
         ><q-card-section
           >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quod alias non aspernatur
           distinctio cumque laboriosam officia dolor voluptatum, quidem adipisci corrupti, porro
