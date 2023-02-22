@@ -1,5 +1,17 @@
 <script setup>
 import { RouterView } from 'vue-router';
+
+const date = new Date();
+const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+let weekday = weekdays[date.getDay()];
+let day = date.getDate();
+let month = date.getMonth() + 1;
+let year = date.getFullYear();
+let hour = date.getHours();
+let minutes = date.getMinutes();
+
+let currentDate = `${weekday}, ${day}.${month}.${year}, ${hour}:${minutes}`;
 </script>
 
 <template>
@@ -7,7 +19,7 @@ import { RouterView } from 'vue-router';
     <div class="row justify-between q-pa-xl">
       <div>
         <p class="text-white">Welcome Matthias!</p>
-        <p class="text-white">Wednesday, 15th Febuary, 2023</p>
+        <p class="text-white">{{ currentDate }}</p>
       </div>
       <q-img src="/65.jpg" width="20vw" style="border-radius: 100%"></q-img>
     </div>
