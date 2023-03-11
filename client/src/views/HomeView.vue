@@ -18,8 +18,8 @@ let currentDate = `${weekday}, ${day}.${month}.${year}, ${hour}:${minutes}`;
   <div>
     <div class="row justify-between q-pa-xl">
       <div>
-        <p class="text-white">Welcome Matthias!</p>
-        <p class="text-white">{{ currentDate }}</p>
+        <p>Welcome Matthias!</p>
+        <p>{{ currentDate }}</p>
       </div>
       <q-img src="/65.jpg" width="20vw" style="border-radius: 100%"></q-img>
     </div>

@@ -1,10 +1,15 @@
 <script setup>
+import { useQuasar } from 'quasar';
 import { RouterView } from 'vue-router';
+
+const $q = useQuasar();
+
+$q.dark.set(true);
 </script>
 
 <template>
-  <q-layout class="xs bg-primaryq">
-    <q-page-container class="bg-primary">
+  <q-layout class="xs">
+    <q-page-container>
       <RouterView></RouterView>
     </q-page-container>
     <q-page-sticky position="bottom" class="q-mb-sm">

@@ -23,12 +23,12 @@ const todaysWeight = 57;
   <q-layout>
     <q-page-container>
       <div class="q-ma-md">
-        <p class="text-white text-h5 q-mt">{{ currentDate }}</p>
-        <p class="text-white text-h5">Body Measurements</p>
-        <p class="text-white text-h6">Todays Weight</p>
-        <p class="text-white text-h6">{{ todaysWeight }} kg</p>
+        <p class="text-h5 q-mt">{{ currentDate }}</p>
+        <p class="text-h5">Body Measurements</p>
+        <p class="text-h6">Todays Weight</p>
+        <p class="text-h6">{{ todaysWeight }} kg</p>
 
-        <q-tabs v-model="tab" class="text-white">
+        <q-tabs v-model="tab">
           <q-tab name="month" label="Month"></q-tab>
           <q-tab name="year" label="Year"></q-tab>
         </q-tabs>
