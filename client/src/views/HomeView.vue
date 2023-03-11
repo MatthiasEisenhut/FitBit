@@ -17,11 +17,13 @@ let currentDate = `${weekday}, ${day}.${month}.${year}, ${hour}:${minutes}`;
 <template>
   <div>
     <div class="row justify-between q-pa-xl">
-      <div>
-        <p>Welcome Matthias!</p>
+      <div class="">
+        <p class="text-h6">Welcome Matthias!</p>
         <p>{{ currentDate }}</p>
       </div>
-      <q-img src="/65.jpg" width="20vw" style="border-radius: 100%"></q-img>
+      <div class="">
+        <q-img src="/65.jpg" width="20vw" style="border-radius: 100%"></q-img>
+      </div>
     </div>
     <div class="row justify-center">
       <q-card class="myCard q-ma-sm"
@@ -60,5 +62,6 @@ let currentDate = `${weekday}, ${day}.${month}.${year}, ${hour}:${minutes}`;
 .myCard {
   width: 50vw;
   max-width: 100%;
+  background-color: #ff5252;
 }
 </style>

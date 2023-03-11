@@ -12,17 +12,29 @@ $q.dark.set(true);
     <q-page-container>
       <RouterView></RouterView>
     </q-page-container>
-    <q-page-sticky position="bottom" class="q-mb-sm">
-      <div class="row justify-between">
-        <q-btn to="/workout" round color="white" icon="fa-solid fa-plus" text-color="secondary" />
-        <q-btn to="/" round color="white" icon="fa-solid fa-house" text-color="secondary" />
-        <q-btn
-          to="/statistics"
-          round
-          color="white"
-          icon="fa-solid fa-signal"
-          text-color="secondary"
-        />
+    <q-page-sticky position="bottom" class="q-mb-sm ">
+      <div class=" full-width row justify-between items-center">
+        <div class="">
+          <q-btn
+            to="/workout"
+            round
+            color="secondary"
+            icon="fa-solid fa-plus"
+            text-color="accent"
+          />
+        </div>
+        <div class="">
+          <q-btn to="/" round color="secondary" icon="fa-solid fa-house" text-color="accent" />
+        </div>
+        <div class="">
+          <q-btn
+            to="/statistics"
+            round
+            color="secondary"
+            icon="fa-solid fa-signal"
+            text-color="accent"
+          />
+        </div>
       </div>
     </q-page-sticky>
   </q-layout>
